@@ -14,6 +14,9 @@
 		A62D4ED82150A83C00B64269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62D4ED62150A83C00B64269 /* LaunchScreen.storyboard */; };
 		A62D4EE32150A83C00B64269 /* PlayingCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D4EE22150A83C00B64269 /* PlayingCardTests.swift */; };
 		A62D4EEE2150A83D00B64269 /* PlayingCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D4EED2150A83D00B64269 /* PlayingCardUITests.swift */; };
+		A62D4EFE2150A93300B64269 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D4EFD2150A93300B64269 /* PlayingCard.swift */; };
+		A62D4F002151CBC000B64269 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D4EFF2151CBC000B64269 /* PlayingCardDeck.swift */; };
+		A62D4F022151D3DD00B64269 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D4F012151D3DD00B64269 /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A62D4EE92150A83D00B64269 /* PlayingCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62D4EED2150A83D00B64269 /* PlayingCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardUITests.swift; sourceTree = "<group>"; };
 		A62D4EEF2150A83D00B64269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62D4EFD2150A93300B64269 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		A62D4EFF2151CBC000B64269 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		A62D4F012151D3DD00B64269 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,14 @@
 		A62D4ECC2150A83B00B64269 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				A62D4ECD2150A83B00B64269 /* AppDelegate.swift */,
+				A62D4EFC2150A8B800B64269 /* Support */,
 				A62D4ECF2150A83B00B64269 /* ViewController.swift */,
 				A62D4ED12150A83B00B64269 /* Main.storyboard */,
 				A62D4ED42150A83C00B64269 /* Assets.xcassets */,
-				A62D4ED62150A83C00B64269 /* LaunchScreen.storyboard */,
 				A62D4ED92150A83C00B64269 /* Info.plist */,
+				A62D4EFD2150A93300B64269 /* PlayingCard.swift */,
+				A62D4EFF2151CBC000B64269 /* PlayingCardDeck.swift */,
+				A62D4F012151D3DD00B64269 /* PlayingCardView.swift */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
@@ -123,6 +131,15 @@
 				A62D4EEF2150A83D00B64269 /* Info.plist */,
 			);
 			path = PlayingCardUITests;
+			sourceTree = "<group>";
+		};
+		A62D4EFC2150A8B800B64269 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A62D4ECD2150A83B00B64269 /* AppDelegate.swift */,
+				A62D4ED62150A83C00B64269 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A62D4ED02150A83B00B64269 /* ViewController.swift in Sources */,
+				A62D4F002151CBC000B64269 /* PlayingCardDeck.swift in Sources */,
+				A62D4EFE2150A93300B64269 /* PlayingCard.swift in Sources */,
+				A62D4F022151D3DD00B64269 /* PlayingCardView.swift in Sources */,
 				A62D4ECE2150A83B00B64269 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
